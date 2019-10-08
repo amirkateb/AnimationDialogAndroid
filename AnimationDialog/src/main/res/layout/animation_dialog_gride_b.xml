@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:id="@+id/parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animation_view"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+        android:visibility="gone"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true" />
+    <ImageView
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:id="@+id/img"
+        android:scaleType="fitXY"
+        android:layout_marginBottom="15dp"
+        android:layout_height="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/title"
+        android:layout_below="@+id/animation_view"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/txt"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="15sp"
+        android:textColor="#ff000000"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txt"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_height="35dp"
+                android:text="It's OK!"
+                android:visibility="gone"
+                android:id="@+id/btn2"
+                android:gravity="center_vertical|center_horizontal"
+                android:background="@drawable/background_green_rounded_corner_button"
+                android:textColor="#ffffffff" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:id="@+id/relred"
+            android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_height="35dp"
+            android:text="It's Not OK!"
+            android:id="@+id/btn1"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/background_corner_red_button"
+            android:textColor="#ffffffff" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>
+
+</RelativeLayout>
