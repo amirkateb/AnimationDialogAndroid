@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="match_parent"
+        android:background="#651FFF"
+        android:textColor="#FFF"
+        android:id="@+id/simple"
+        android:layout_margin="10dp"
+        android:text="simple dialog"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#651FFF"
+        android:textColor="#FFF"
+        android:id="@+id/simpleTw"
+        android:layout_margin="10dp"
+        android:text="simple dialog With 2 Buttons"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#651FFF"
+        android:textColor="#FFF"
+        android:id="@+id/simpleTwGride"
+        android:layout_margin="10dp"
+        android:text="simple dialog With 2 Buttons gride"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#651FFF"
+        android:textColor="#FFF"
+        android:id="@+id/simpleTwPic"
+        android:layout_margin="10dp"
+        android:text="dialog With Picture"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#651FFF"
+        android:textColor="#FFF"
+        android:id="@+id/simpleTwanim"
+        android:layout_margin="10dp"
+        android:text="dialog With Animation"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#651FFF"
+        android:textColor="#FFF"
+        android:id="@+id/simpleTwsound"
+        android:layout_margin="10dp"
+        android:text="dialog With Sound And Animation"
+        android:layout_height="wrap_content"/>
+        <Button
+            android:layout_width="match_parent"
+            android:background="#651FFF"
+            android:textColor="#FFF"
+            android:id="@+id/simplef"
+            android:layout_margin="10dp"
+            android:text="dialog With full customize"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
+</ScrollView>
+
+</LinearLayout>
