@@ -74,7 +74,7 @@ public void onClick(View view) {
 }
 });
 ```
-#### 4.Customize Your 
+#### 4.Customize
 ```javascript
 //hex color like #000000
 AnimationDialog.add_secend_button("Button Text","colorHex for background buttons color"); 
