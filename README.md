@@ -6,7 +6,7 @@ A Easy And Powerfull Library For Android Dialog
 ![](AnimationDialogAndroid.gif)
 
 ### How Install...               
-####1. Add To Your build.gradle(project)
+#### 1. Add To Your build.gradle(project)
 
 ```javascript
 	allprojects {
@@ -17,14 +17,14 @@ A Easy And Powerfull Library For Android Dialog
 	}
   ```
   
-####2. Add To Your build.gradle(App)
+#### 2. Add To Your build.gradle(App)
 ```javascript
 	dependencies {
 	        implementation 'com.github.amirkateb:AnimationDialogAndroid:1.1.1'
 	}
 ```
 
-####3.add Lottie To Your Project
+#### 3.add Lottie To Your Project
 This Library Use [Lottie](https://github.com/airbnb/lottie-android "Lottie") For Show Animation
 (You Can Download Many Free Animation in Json Format in [LottieFiles]( https://lottiefiles.com "LottieFiles")
 
@@ -34,7 +34,7 @@ dependencies {
 }
 ```
 ### How To Use...  
-####1.Init AnimationDialog
+#### 1.Init AnimationDialog
 ```javascript
 //Activity is your Activity Or Context like MainActivity.this
 AnimationDialog.init(Activity,boolean your choice); //boolean your choice:you can use gride button(true) or linear buton(false)
@@ -45,11 +45,11 @@ Button[] buttons;
 buttons=AnimationDialog.init(Activity,boolean your choice); //Activity is your Activity Or Context like MainActivity.this
 ```
 
-####2.Create Your Dialog
+#### 2.Create Your Dialog
 ```javascript
 AnimationDialog.create("Title","Sub Text","Button Text!");
 ```
-####3.Buttons Click
+#### 3.Buttons Click
 ```javascript
 buttons[0].setOnClickListener(new View.OnClickListener() {
    @Override
@@ -74,7 +74,7 @@ public void onClick(View view) {
 }
 });
 ```
-####4.Customize Your 
+#### 4.Customize Your 
 ```javascript
 //hex color like #000000
 AnimationDialog.add_secend_button("Button Text","colorHex for background buttons color"); 
@@ -100,8 +100,8 @@ lottieAnimationView=AnimationDialog.set_animation("name of your json file name i
 ```
 ### For More Example You Can See SampleApp Folder
 
-###Thanks For Yor Attantion
+### Thanks For Yor Attantion
 
-####AmirMohammad KatebSaber [MySite In Persian Language](https://katebsaber.ir "MySite")
+#### AmirMohammad KatebSaber [MySite In Persian Language](https://katebsaber.ir "MySite")
 
-##End
+## End
